@@ -19,3 +19,6 @@ RUN npm install -g -q \
     node-gyp@3.4.0 \
     clean-css \
     https://github.com/hellofresh/lentil.git#fix/add-missing-babel-eslint
+
+# Rebuild node-sass to avoid 
+RUN npm -g -q rebuild node-sass
